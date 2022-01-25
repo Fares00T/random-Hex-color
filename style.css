@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+#container {
+  padding: 200px;
+  margin: 200px;
+  margin-top: 100px;
+  background-color: grey;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+#changeColor {
+  position: absolute;
+  top: 400px;
+}
+
+.hex {
+  font-size: 25px;
+  font-weight: bolder;
+  color: white;
+  position: absolute;
+  top: 150px;
+}
